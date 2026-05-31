@@ -7,10 +7,10 @@ import Payments from './components/Payments.jsx'
 const TABS = ['Overview','Influenceri','Linkuri','Plăți']
 
 const initInfluencers = [
-  {id:1,name:'@moldovan_vlad',platform:'TikTok',clicks:3200,regs:48,revenue:1800,comm:35,active:true},
-  {id:2,name:'@beauty_md',platform:'Instagram',clicks:1900,regs:31,revenue:1100,comm:30,active:true},
-  {id:3,name:'@gaming_ro',platform:'YouTube',clicks:4100,regs:62,revenue:2400,comm:40,active:true},
-  {id:4,name:'@stiri_md',platform:'Telegram',clicks:800,regs:9,revenue:280,comm:30,active:false},
+  {id:1,name:'@moldovan_vlad',platform:'TikTok',clicks:3200,regs:48,revenue:1800,comm:35,promoCode:'VLAD20',active:true},
+  {id:2,name:'@beauty_md',platform:'Instagram',clicks:1900,regs:31,revenue:1100,comm:30,promoCode:'BEAUTY50',active:true},
+  {id:3,name:'@gaming_ro',platform:'YouTube',clicks:4100,regs:62,revenue:2400,comm:40,promoCode:'GAMING30',active:true},
+  {id:4,name:'@stiri_md',platform:'Telegram',clicks:800,regs:9,revenue:280,comm:30,promoCode:'STIRI10',active:false},
 ]
 
 export default function App() {
